@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SparkBoard.Server.props" />
+</Project>

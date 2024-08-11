@@ -1,0 +1,6 @@
+@SparkBoard.Server_HostAddress = http://localhost:5295
+
+GET {{SparkBoard.Server_HostAddress}}/
+Accept: application/json
+
+###

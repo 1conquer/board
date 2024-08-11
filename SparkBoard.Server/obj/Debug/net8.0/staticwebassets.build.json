@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "GGU//SQEOrzHHQoHvV2vs+mbLt3JP7qE/dCfc1g3hx8=",
+  "Source": "SparkBoard.Server",
+  "BasePath": "_content/SparkBoard.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Tests\\board-main\\sparkboard.client\\sparkboard.client.esproj",
+      "Version": 2,
+      "Source": "sparkboard.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

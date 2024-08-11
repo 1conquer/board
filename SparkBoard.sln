@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparkBoard.Server", "SparkBoard.Server\SparkBoard.Server.csproj", "{32964A1E-7C1F-4072-9C10-79451646CA15}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "sparkboard.client", "sparkboard.client\sparkboard.client.esproj", "{30A01D9B-2956-4911-96AA-0A6470878171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkBoard.Shared", "SparkBoard.Shared\SparkBoard.Shared.csproj", "{5D736240-AAE6-4AB4-8762-1B128A430D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkBoard.Database", "SparkBoard.Database\SparkBoard.Database.csproj", "{90C33CED-DC52-4AD4-A73B-54692EFA5B95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Core", "1_Core", "{308DC20F-4CD6-49CA-8E5D-0032253486C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_Frontend", "3_Frontend", "{B94D3931-799D-4870-9AA3-E2931834399E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Database", "0_Database", "{9C686C69-F5A2-440A-B2C7-58428B0A792B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_Modules", "4_Modules", "{C7B039D8-C8C6-4F9B-A299-37DA19681B99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_API", "2_API", "{E06BC9C5-63CA-4305-9B81-F4B27BB1A3B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32964A1E-7C1F-4072-9C10-79451646CA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32964A1E-7C1F-4072-9C10-79451646CA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32964A1E-7C1F-4072-9C10-79451646CA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32964A1E-7C1F-4072-9C10-79451646CA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A01D9B-2956-4911-96AA-0A6470878171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A01D9B-2956-4911-96AA-0A6470878171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A01D9B-2956-4911-96AA-0A6470878171}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{30A01D9B-2956-4911-96AA-0A6470878171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A01D9B-2956-4911-96AA-0A6470878171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A01D9B-2956-4911-96AA-0A6470878171}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5D736240-AAE6-4AB4-8762-1B128A430D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D736240-AAE6-4AB4-8762-1B128A430D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D736240-AAE6-4AB4-8762-1B128A430D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D736240-AAE6-4AB4-8762-1B128A430D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C33CED-DC52-4AD4-A73B-54692EFA5B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C33CED-DC52-4AD4-A73B-54692EFA5B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C33CED-DC52-4AD4-A73B-54692EFA5B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C33CED-DC52-4AD4-A73B-54692EFA5B95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32964A1E-7C1F-4072-9C10-79451646CA15} = {E06BC9C5-63CA-4305-9B81-F4B27BB1A3B5}
+		{30A01D9B-2956-4911-96AA-0A6470878171} = {B94D3931-799D-4870-9AA3-E2931834399E}
+		{5D736240-AAE6-4AB4-8762-1B128A430D16} = {308DC20F-4CD6-49CA-8E5D-0032253486C4}
+		{90C33CED-DC52-4AD4-A73B-54692EFA5B95} = {9C686C69-F5A2-440A-B2C7-58428B0A792B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C48DC0CF-14C0-4720-9924-03D6F69A0CBB}
+	EndGlobalSection
+EndGlobal
