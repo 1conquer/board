@@ -1,5 +1,4 @@
-import { Event } from "../Common/Event";
-import { IDisposable } from "../Common/IDisposable";
+import { Event } from "../Event";
 import { Action } from "./Action";
 import { Dispatcher } from "./Dispatcher";
 
@@ -8,27 +7,28 @@ import { Dispatcher } from "./Dispatcher";
  *
  * For details about the Flux Architecture see https://facebook.github.io/flux/docs/overview.html.
  */
-export abstract class Store implements IDisposable {
+export abstract class Store {
   /**
    * Initializes a new instance of this class.
    *
    * @param dispatcher The Flux dispatcher the store should listen for new actions to.
    */
-  public constructor(dispatcher: Dispatcher<Action>) {
+  public constructor(dispatcher: Dispatcher) {
     this.dispatcher = dispatcher;
     this.changed = new Event<void>();
     this.hasChanged = false;
-
-    this.dispatchToken = this.dispatcher.register((payload: Action) => {
-      this.invokeOnDispatch(payload);
-    });
+    if (this.dispatchToken === undefined) {
+      this.dispatchToken = this.dispatcher.register((payload: Action) => {
+        this.invokeOnDispatch(payload);
+      });
+    }
   }
 
   /**
    * Returns the dispatcher the store is listening to.
    * @returns The dispatcher the store is listening to.
    */
-  public getDispatcher(): Dispatcher<Action> {
+  public getDispatcher(): Dispatcher {
     return this.dispatcher;
   }
 
@@ -83,6 +83,6 @@ export abstract class Store implements IDisposable {
     }
   }
 
-  private dispatcher: Dispatcher<Action>;
+  private dispatcher: Dispatcher;
   private dispatchToken: string;
 }

@@ -1,4 +1,4 @@
-import { Action } from "../Flux/Action";
+import { Action } from "../Common/Flux/Action";
 
 /**
  * Represents a flux action for the multi unit OEE module.

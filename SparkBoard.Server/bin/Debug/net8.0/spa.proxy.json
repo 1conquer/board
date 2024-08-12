@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Tests\\board-main\\SparkBoard.Server\\..\\sparkboard.client",
+"WorkingDirectory": "C:\\Projects\\SparkBoard\\SparkBoard.Server\\..\\sparkboard.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

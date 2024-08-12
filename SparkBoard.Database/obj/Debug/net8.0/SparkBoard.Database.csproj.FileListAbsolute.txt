@@ -1,0 +1,12 @@
+C:\Projects\SparkBoard\SparkBoard.Database\bin\Debug\net8.0\SparkBoard.Database.deps.json
+C:\Projects\SparkBoard\SparkBoard.Database\bin\Debug\net8.0\SparkBoard.Database.dll
+C:\Projects\SparkBoard\SparkBoard.Database\bin\Debug\net8.0\SparkBoard.Database.pdb
+C:\Projects\SparkBoard\SparkBoard.Database\obj\Debug\net8.0\SparkBoard.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SparkBoard\SparkBoard.Database\obj\Debug\net8.0\SparkBoard.Database.AssemblyInfoInputs.cache
+C:\Projects\SparkBoard\SparkBoard.Database\obj\Debug\net8.0\SparkBoard.Database.AssemblyInfo.cs
+C:\Projects\SparkBoard\SparkBoard.Database\obj\Debug\net8.0\SparkBoard.Database.csproj.CoreCompileInputs.cache
+C:\Projects\SparkBoard\SparkBoard.Database\obj\Debug\net8.0\SparkBoard.Database.sourcelink.json
+C:\Projects\SparkBoard\SparkBoard.Database\obj\Debug\net8.0\SparkBoard.Database.dll
+C:\Projects\SparkBoard\SparkBoard.Database\obj\Debug\net8.0\refint\SparkBoard.Database.dll
+C:\Projects\SparkBoard\SparkBoard.Database\obj\Debug\net8.0\SparkBoard.Database.pdb
+C:\Projects\SparkBoard\SparkBoard.Database\obj\Debug\net8.0\ref\SparkBoard.Database.dll

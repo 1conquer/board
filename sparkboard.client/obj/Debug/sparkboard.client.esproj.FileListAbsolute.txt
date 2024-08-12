@@ -2,3 +2,4 @@ C:\Users\mcpk_vm\source\repos\SparkBoard\sparkboard.client\obj\Debug\sparkboard.
 C:\Tests\SparkBoard\sparkboard.client\obj\Debug\sparkboard.client.esproj.CoreCompileInputs.cache
 C:\Projects\SparkBoard\SparkBoard\sparkboard.client\obj\Debug\sparkboard.client.esproj.CoreCompileInputs.cache
 C:\Tests\board-main\sparkboard.client\obj\Debug\sparkboard.client.esproj.CoreCompileInputs.cache
+C:\Projects\SparkBoard\sparkboard.client\obj\Debug\sparkboard.client.esproj.CoreCompileInputs.cache

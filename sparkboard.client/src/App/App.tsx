@@ -11,16 +11,12 @@ import BacklogPage from "../pages/BacklogPage";
 import SettingPage from "../pages/SettingPage";
 import UserPage from "../pages/UserPage";
 import { FunctionComponent, useState } from "react";
-import { Dispatcher } from "../Flux/Dispatcher";
 import { AppStore } from "./AppStore";
-import { Action } from "../Flux/Action";
 
-type AppProps = { val: number };
+type AppProps = {};
 
 const App: FunctionComponent<AppProps> = (props) => {
-  const [store, setStore] = useState<AppStore>(
-    new AppStore(new Dispatcher<Action>(), "")
-  );
+  const [store, setStore] = useState<AppStore>(new AppStore(""));
 
   if (!store) {
     return null;
@@ -29,7 +25,7 @@ const App: FunctionComponent<AppProps> = (props) => {
     Update();
   };
 
-  store.changed.addHandler(onStoreChanged);
+  store.changed.addHandler(onStoreChanged, 4);
 
   const Update = () => {};
 

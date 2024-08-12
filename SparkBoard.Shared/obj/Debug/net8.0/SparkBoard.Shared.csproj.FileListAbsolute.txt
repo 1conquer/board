@@ -1,0 +1,12 @@
+C:\Projects\SparkBoard\SparkBoard.Shared\bin\Debug\net8.0\SparkBoard.Shared.deps.json
+C:\Projects\SparkBoard\SparkBoard.Shared\bin\Debug\net8.0\SparkBoard.Shared.dll
+C:\Projects\SparkBoard\SparkBoard.Shared\bin\Debug\net8.0\SparkBoard.Shared.pdb
+C:\Projects\SparkBoard\SparkBoard.Shared\obj\Debug\net8.0\SparkBoard.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SparkBoard\SparkBoard.Shared\obj\Debug\net8.0\SparkBoard.Shared.AssemblyInfoInputs.cache
+C:\Projects\SparkBoard\SparkBoard.Shared\obj\Debug\net8.0\SparkBoard.Shared.AssemblyInfo.cs
+C:\Projects\SparkBoard\SparkBoard.Shared\obj\Debug\net8.0\SparkBoard.Shared.csproj.CoreCompileInputs.cache
+C:\Projects\SparkBoard\SparkBoard.Shared\obj\Debug\net8.0\SparkBoard.Shared.sourcelink.json
+C:\Projects\SparkBoard\SparkBoard.Shared\obj\Debug\net8.0\SparkBoard.Shared.dll
+C:\Projects\SparkBoard\SparkBoard.Shared\obj\Debug\net8.0\refint\SparkBoard.Shared.dll
+C:\Projects\SparkBoard\SparkBoard.Shared\obj\Debug\net8.0\SparkBoard.Shared.pdb
+C:\Projects\SparkBoard\SparkBoard.Shared\obj\Debug\net8.0\ref\SparkBoard.Shared.dll

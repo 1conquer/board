@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "GGU//SQEOrzHHQoHvV2vs+mbLt3JP7qE/dCfc1g3hx8=",
+  "Hash": "nhK5f1gi+AgEIgoN8kNR8RCZj4AhG461vvQH9HvnQaA=",
   "Source": "SparkBoard.Server",
   "BasePath": "_content/SparkBoard.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Tests\\board-main\\sparkboard.client\\sparkboard.client.esproj",
+      "Identity": "C:\\Projects\\SparkBoard\\sparkboard.client\\sparkboard.client.esproj",
       "Version": 2,
       "Source": "sparkboard.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

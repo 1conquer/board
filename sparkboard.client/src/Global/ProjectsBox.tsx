@@ -1,13 +1,19 @@
 import { FunctionComponent } from "react";
+import { Dispatcher } from "../Common/Flux/Dispatcher";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
+import { ProjectChangedAction } from "../Actions/ProjectChangedAction";
 
 type ProjectsBoxProps = {
-  projectGuid: string;
+  projectGuid?: string;
 };
 
 const ProjectsBox: FunctionComponent<ProjectsBoxProps> = (props) => {
-  const onChange = (event: React.SyntheticEvent, value: any) => {};
+  const dispatcher = Dispatcher.Instance;
+
+  const onChange = (event: React.SyntheticEvent, value: any) => {
+    dispatcher.dispatch(new ProjectChangedAction());
+  };
 
   return (
     <Autocomplete

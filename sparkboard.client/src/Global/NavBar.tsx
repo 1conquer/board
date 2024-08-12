@@ -20,6 +20,7 @@ import SideBar from "./SideBar";
 import Routes from "./Constants/Routes";
 import { useNavigate } from "react-router-dom";
 import ProjectsBox from "./ProjectsBox";
+import StarIcon from "./Icons/StarIcon";
 
 type NavBarProps = {
   projectGuid: string;
@@ -169,7 +170,7 @@ const NavBar: FunctionComponent<NavBarProps> = (props) => {
             aria-label="open drawer"
             sx={{ mr: 2 }}
           >
-            <FlareIcon />
+            <StarIcon />
           </IconButton>
           <Typography
             variant="h6"

@@ -45,10 +45,9 @@ export class Event<TEventArg> {
    * @param argument The argument for the event. The argument will be passed to all registered event handler functions.
    */
   public invoke = (argument?: TEventArg) => {
-    this.eventHandlersToPriorities =
-      this.eventHandlersToPriorities.orderByDescending(
-        (eventHandlerToPriority) => eventHandlerToPriority.priority
-      );
+    this.eventHandlersToPriorities = this.eventHandlersToPriorities.sort(
+      (eventHandlerToPriority) => eventHandlerToPriority.priority
+    );
     const eventHandlers = this.eventHandlersToPriorities.map(
       (eventHandlerToPriority) => eventHandlerToPriority.eventHandler
     );

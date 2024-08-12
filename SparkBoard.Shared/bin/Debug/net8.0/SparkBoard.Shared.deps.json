@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SparkBoard.Shared/1.0.0": {
+        "runtime": {
+          "SparkBoard.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SparkBoard.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

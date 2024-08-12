@@ -1,12 +1,13 @@
 import { BaseAction } from "../Actions/BaseAction";
-import { Action } from "../Flux/Action";
-import { Dispatcher } from "../Flux/Dispatcher";
-import { Store } from "../Flux/Store";
+import { ProjectChangedAction } from "../Actions/ProjectChangedAction";
+import { Action } from "../Common/Flux/Action";
+import { Dispatcher } from "../Common/Flux/Dispatcher";
+import { Store } from "../Common/Flux/Store";
 import { AppState } from "./AppState";
 
 export class AppStore extends Store {
-  public constructor(dispatcher: Dispatcher, projectGuid: string) {
-    super(dispatcher);
+  public constructor(projectGuid: string) {
+    super(Dispatcher.Instance);
     this.state = new AppState();
     this.state.projectGuid = projectGuid;
     this.hasChanged = true;
@@ -27,10 +28,13 @@ export class AppStore extends Store {
       return;
     }
 
+    if (payload instanceof ProjectChangedAction) {
+      console.log("zlupa");
+      this.hasChanged = true;
+    }
     if (!(payload instanceof BaseAction)) {
       return;
     }
-    this.hasChanged = false;
   }
 
   private state: AppState;
